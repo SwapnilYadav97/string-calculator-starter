@@ -18,4 +18,10 @@ class StringCalculatorShould {
         assertEquals("3", given("1,2"));
     }
 
+    
+    @Test
+    public void
+    sum_floats_and_return_float() {
+        assertEquals("6.6", given("2.2,4.4"));
+    }
 }
